@@ -81,5 +81,17 @@ function randomAdvice() {
     }
 };
 
+function randomNumber100() {
+const randNum = Math.floor(Math.random()*101)
+console.log('Your lucky number is ${randNum}.'}
+}
+
+function fortuneCookieGen() {
+randomMessage();
+randomNumber100();
+randomAdvice();
+}
+
+fortuneCookieGen()
 
 
