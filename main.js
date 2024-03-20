@@ -1,5 +1,23 @@
+let messageStart1 = ["You are on the brink of","You are on the verge of","You are destined for","You are at a crossroads, choose","You are surrounded by"]
+let messageStart2 = ["Amidst challenges, you are","Amidst chaos, you find","Amidst uncertainty, you find","Amidst darkness, you are","In moments of doubt, you are"]
+let messageStart3 = ["In times of change, you adapt","In moments of stillness, you find","In the face of adversity, you","In the pursuit of dreams, you","You attract positivity"]
+let messageStart4 = ["You are the architect of your destiny.","You are the captain of your soul.","You are the master of your fate.","Your potential knows no bounds.","You are a beacon of hope for others."]
+let messageStart5 = ["You radiate confidence and charm.","You possess the power to manifest your desires.","Within every setback, you find opportunity.","Your resilience is your greatest strength.","You overcome obstacles with ease."]
+
 let messageEndings1 = ["a new adventure.","a breakthrough.","greatness.","wisely.","abundance."]
 let messageEndings2 = ["resilient.","the light.","steadfast.","the master of your fate.","a force of nature."]
 let messageEndings3 = ["calm.","clarity.","strength.","purpose.","healing."]
 let messageEndings4 = ["opportunity.","growth.","a new beginning.","purpose.","healing."]
 let messageEndings5 = ["your favor.","to success.","endless possibilities.","into your life.","prosperity."]
+
+let adviceStart1 = ["Embrace", "Find", "Choose", "Stay", "Discover"]
+let adviceStart2 = ["Listen to", "Reach for", "Trust", "Embrace", "Follow"]
+let adviceStart3 = ["Adapt with", "Face", "Persevere with", "Rise with", "Conquer with"]
+let adviceStart4 = ["Live", "Laugh", "Love", "Forgive", "Believe"]
+let adviceStart5 = ["Shine brightly with", "Dance with", "Dream with", "Inspire with", "Create with"]
+
+let adviceEndings1 = ["courage", "gratitude", "wisdom", "positivity", "confidence"]
+let adviceEndings2 = ["determination", "openness", "kindness", "compassion", "joy"]
+let adviceEndings3 = ["resilience", "strength", "hope", "optimism", "faith"]
+let adviceEndings4 = ["authenticity", "generosity", "peace", "happiness", "fulfillment"]
+let adviceEndings5 = ["creativity", "passion", "purpose", "connection", "abundance"]
