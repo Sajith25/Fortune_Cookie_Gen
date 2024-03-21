@@ -39,7 +39,6 @@ function randomNumber() {
 
 function randomMessage() {
     let rand1 = Math.floor(Math.random()*5)
-    console.log(rand1)
     switch (rand1) {
     case 0:
         console.log(`${messages.messageStart.messageStart1[randomNumber()]}${messages.messageEnd.messageEndings1[randomNumber()]}`)
@@ -61,7 +60,6 @@ function randomMessage() {
 
 function randomAdvice() {
     let rand1 = Math.floor(Math.random()*5)
-    console.log(rand1)
     switch (rand1) {
     case 0:
         console.log(`${advice.adviceStart.adviceStart1[randomNumber()]}${advice.adviceEnd.adviceEndings1[randomNumber()]}`)
@@ -70,20 +68,20 @@ function randomAdvice() {
         console.log(`${advice.adviceStart.adviceStart2[randomNumber()]}${advice.adviceEnd.adviceEndings2[randomNumber()]}`)
         break;
     case 2:
-        console.log(`${advice.adviceStart.adviceStart3[randomNumber()]}${messages.adviceEnd.adviceEndings3[randomNumber()]}`)
+        console.log(`${advice.adviceStart.adviceStart3[randomNumber()]}${advice.adviceEnd.adviceEndings3[randomNumber()]}`)
         break;
     case 3:
-        console.log(`${advice.adviceStart.adviceStart4[randomNumber()]}${messages.adviceEnd.adviceEndings4[randomNumber()]}`)
+        console.log(`${advice.adviceStart.adviceStart4[randomNumber()]}${advice.adviceEnd.adviceEndings4[randomNumber()]}`)
         break;
     case  4:
-        console.log(`${advice.adviceStart.adviceStart5[randomNumber()]}${messages.adviceEnd.adviceEndings5[randomNumber()]}`)
+        console.log(`${advice.adviceStart.adviceStart5[randomNumber()]}${advice.adviceEnd.adviceEndings5[randomNumber()]}`)
         break;
     }
 };
 
 function randomNumber100() {
 const randNum = Math.floor(Math.random()*101)
-console.log('Your lucky number is ${randNum}.'}
+console.log(`Your lucky number is ${randNum}.`)
 }
 
 function fortuneCookieGen() {
